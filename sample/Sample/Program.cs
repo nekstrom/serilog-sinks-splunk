@@ -7,9 +7,9 @@ namespace Sample
 {
     public class Program
     {
-        const string SPLUNK_FULL_ENDPOINT = "http://localhost:8088/services/collector"; // Full splunk url 
-        const string SPLUNK_ENDPOINT = "http://localhost:8088"; //  Your splunk url  
-        const string SPLUNK_HEC_TOKEN = "1AFAC088-BFC6-447F-A358-671FA7465342"; // Your HEC token. See http://docs.splunk.com/Documentation/Splunk/latest/Data/UsetheHTTPEventCollector
+        const string SPLUNK_FULL_ENDPOINT = "http://lab-spkidx01.ndlab.local:8088/services/collector"; // Full splunk url 
+        const string SPLUNK_ENDPOINT = "http://lab-spkidx01.ndlab.local:8088"; //  Your splunk url  
+        const string SPLUNK_HEC_TOKEN = "CE4CF6E5-B847-4D49-B34E-C0B63F24F737"; // Your HEC token. See http://docs.splunk.com/Documentation/Splunk/latest/Data/UsetheHTTPEventCollector
         public static string EventCollectorToken = SPLUNK_HEC_TOKEN; 
 
         public static void Main(string[] args)
